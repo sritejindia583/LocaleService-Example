@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS - Locale service</title>
+    <script src="../libs/angular.js"></script>
+    <script src="../libs/angular-locale_se.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div ng-controller="LocaleController">
+        {{ myDate | date:formattedDate }}
+    </div>
+</body>
+</html>
